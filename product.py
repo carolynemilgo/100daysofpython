@@ -3,4 +3,4 @@
 def product(a,b):
     return a * b
 
-product(3,5)
+print(product(3,5))
