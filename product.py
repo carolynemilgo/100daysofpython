@@ -1,5 +1,5 @@
 # Find the product of two numbers
 
-def product(num_a,b):
+def product(a,b):
     return a * b
 
