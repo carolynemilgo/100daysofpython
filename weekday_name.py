@@ -1,17 +1,17 @@
 def weekday_name(day_of_week):
     if(day_of_week == 1):
-      print("Monday")
+      return("Monday")
     elif day_of_week == 2:
-        print("Tuesday")
+        return("Tuesday")
     elif day_of_week == 3:
-        print("Wednesday")
+        return("Wednesday")
     elif day_of_week == 4:
-        print("Thursday")
+        return("Thursday")
     elif day_of_week == 5:
-        print("Friday")
+        return("Friday")
     elif day_of_week == 6:
-        print("Saturday")
+        return("Saturday")
     elif day_of_week == 7:
-        print("Sunday")
+        return("Sunday")
     else:
-      print("There is no day like that- you can only enter between 1-7") 
+      return("There is no day like that- you can only enter between 1-7") 
