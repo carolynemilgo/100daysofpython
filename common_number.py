@@ -11,3 +11,5 @@ def most_common(my_list):
       if frequency > counter:
         counter = frequency
     return number
+
+print(most_common([1,1,2,2,2,2,2]))     
