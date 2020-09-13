@@ -1,4 +1,4 @@
-# product of two numbers
+# Find product of two numbers
 
 
 def product(a, b):
