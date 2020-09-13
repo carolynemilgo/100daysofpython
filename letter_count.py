@@ -1,10 +1,9 @@
-#How many times does letter appear in word (case-insensitively)?
-#Use string count
+# Return dict of {ltr: frequency} from phrase.
 
-def single_letter_count(word, letter):
- 
-  letter_count= (word.lower()).count(letter.lower())
-  if letter_count == 0:
-    return("Letter not found")
-  else:
-    return letter_count  
+
+def multiple_letter_count(phrase):
+    return {letter: phrase.count(letter) for letter in phrase}
+
+
+print(multiple_letter_count("lloooo"))  # {'l': 2, 'o': 4}
+print(multiple_letter_count("ppooo"))  # {'p': 2, 'o': 3}
